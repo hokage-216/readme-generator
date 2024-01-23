@@ -1,0 +1,23 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "This program will generate a high quality readme based on the users input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "readme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hokage-216/readme-generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator"
+  ],
+  "author": "LeVente Berry Jr.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hokage-216/readme-generator/issues"
+  },
+  "homepage": "https://github.com/hokage-216/readme-generator#readme"
+}
