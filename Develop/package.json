@@ -4,7 +4,7 @@
   "description": "This program will generate a high quality readme based on the users input.",
   "main": "index.js",
   "scripts": {
-    "test": "readme"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
