@@ -1,8 +1,22 @@
 // TODO: Include packages needed for this application
+import { input } from '@inquirer/prompts';
 
+const title = await input({ message: 'Enter your name' });
 
 // TODO: Create an array of questions for user input
-const questions = [];
+questions.prompt([
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is the title of your project?'
+    },
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is the title of your project?'
+    },
+    
+]);
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
