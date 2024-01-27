@@ -37,5 +37,5 @@ To run a test use this command(s):
 If you have any questions about the repo, open an issue or contact me directly at test@gmail.com. You can find more of my work at [test](https://github.com/test/).
 
 ## License
-Copyright (c) 2024 LB
-Licensed under the GPL MIT license. To view the license terms click [here](https://opensource.org/licenses/MIT).
+      Copyright (c) 2024 LB
+      Licensed under the GPL MIT license. To view the license terms click [here](https://opensource.org/licenses/MIT).

@@ -1,9 +1,8 @@
-// TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
 import { generateMarkdown } from './utils/generateMarkdown.js';
 
-// TODO: Create a function to write README file
+
 function writeToFile(fileName, data) {
     fs.writeFile(`./${fileName}-README.txt`, data, (error) => {
         if (error) {
@@ -14,13 +13,17 @@ function writeToFile(fileName, data) {
     })
 }
 
-// TODO: Create a function to initialize app
 function init() {
     inquirer.prompt([
         {
             type: 'input',
             name: 'title',
             message: 'What is the title of your project?'
+        },
+        {
+            type: 'input',
+            name: 'description',
+            message: 'Write a brief description of your project:'
         },
         {
             type: 'editor',
@@ -36,7 +39,7 @@ function init() {
             type: 'rawlist',
             name: 'license',
             message: 'Which license will this project use?',
-            choices: ['MIT', 'ISC', 'GPL 2.0', 'GPL 3.0', 'No License']
+            choices: ['MIT', 'ISC', 'GPL 2.0', 'GPL 3.0', 'Mozilla', 'No License']
         },
         {
             type: 'editor',
@@ -62,7 +65,8 @@ function init() {
             type: 'input',
             name: 'email',
             message: 'What email address can people contact you with?'
-        },{
+        },
+        {
             type: 'input',
             name: 'github',
             message: 'What is your GitHub username?'
@@ -72,8 +76,7 @@ function init() {
         writeToFile(data.title, generateMarkdown(data));
     }).catch((error) => {
         console.log(error);
-    });
+    });  
 }
 
-// Function call to initialize app
 init();
