@@ -1,11 +1,11 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
-import generateMarkdown from './utils/generateMarkdown';
-const fs = require('fs');
+import fs from 'fs';
+import { generateMarkdown } from './utils/generateMarkdown.js';
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFileSync(`./${fileName}.txt`, data, (error) => {
+    fs.writeFile(`./${fileName}-README.txt`, data, (error) => {
         if (error) {
             console.log(error);
         } else {
@@ -28,9 +28,9 @@ function init() {
             message: 'How will the user use this app?'
         },
         {
-            type: 'input',
+            type: 'editor',
             name: 'installation',
-            message: 'How would the user install the project?'
+            message: 'What command(s) would the user use to install the project?'
         },
         {
             type: 'rawlist',
@@ -44,9 +44,19 @@ function init() {
             message: 'Who contributed to this project?'
         },
         {
-            type: 'input',
+            type: 'editor',
             name: 'test',
-            message: 'What command is used to run test?'
+            message: 'What command(s) is/are used to run test?'
+        },
+        {
+            type: 'input',
+            name: 'author',
+            message: 'What is the authors first and last name?'
+        },
+        {
+            type: 'input',
+            name: 'copyyear',
+            message: 'What is the copywrite year?'
         },
         {
             type: 'input',

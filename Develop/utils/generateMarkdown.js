@@ -10,25 +10,24 @@ function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
+function renderLicenseSection(license, author, copy) {
   switch (license) {
     case 'MIT':
-      
-      break;
+      return `## License
+      Copyright (c) ${copy} ${author}
+      Licensed under the GPL MIT license.`;
     case 'ISC':
-      
-      break;
+      return `## License
+      Copyright (c) ${copy} ${author}
+      Licensed under the ISC license.`;
     case 'GPL 2.0':
-    
-    break;
+      return `## License
+      Copyright (c) ${copy} ${author}
+      Licensed under the GPL 2.0 license.`;
     case 'GPL 3.0:':
-      
-      break;
-    case 'No License':
-      
-      break;
-    default:
-      break;
+      return `## License
+      Copyright (c) ${copy} ${author}
+      Licensed under the GPL 3.0 license.`;
   }
 }
 
@@ -70,9 +69,8 @@ ${data.contributing}
 
 If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.github}](https://github.com/${data.github}/).
 
-${data.license === 'No License' ? null : renderLicenseSection(data.license)}
+${data.license === 'No License' ? null : renderLicenseSection(data.license, data.author, data.copyyear)}
 `;
-
 }
 
-module.exports = generateMarkdown;
+export { generateMarkdown }
