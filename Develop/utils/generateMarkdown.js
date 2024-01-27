@@ -72,11 +72,15 @@ ${data.test}
 
 ## Contributing
 
+I want to thank everyone who helped contribute to this project! Most notable mentions go to:
+
 ${data.contributing}
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.github}](https://github.com/${data.github}/).
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}.
+
+To view find more of my work [click here](https://github.com/${data.github}/).
 
 ${data.license === 'No License' ? '' : renderLicenseSection(data.license, data.author, data.copyyear)}
 `;

@@ -8,7 +8,7 @@ function writeToFile(fileName, data) {
         if (error) {
             console.log(error);
         } else {
-            console.log("Your file has been created!")
+            console.log(`Your file has been created! File located at: ../readme-generator/${fileName}-README.txt`)
         }
     })
 }

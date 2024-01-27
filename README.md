@@ -1,41 +1,71 @@
-# Title
+# README_Please
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Description
+Have a hard time thinking of how to setup your readme? Are you not familiar with the markdown syntax and wished there was a way to quickly generate a high quality README within minutes? Well look no further!!! README_Please is a node.js package that generates a high quality based on user input. No more wondering what 
 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
+- [Preview](#usage)
 - [Questions](#questions)
 - [License](#license)
 
 ## Installation
 
-To install the npm package run this command(s):
+> **_NOTE:_**
+> This package assumes you already have Node.js and npm installed. If you don't, [download Node.js](https://nodejs.org/en/download) first then come back to these installation steps.
 
-- Test
+1. Open your terminal and clone the github repo:
+
+```
+git clone https://github.com/hokage-216/readme-generator.git
+```
+
+2. 'cd' into the folder:
+
+```
+cd readme-generator
+```
+
+3. Then install the required packages:
+
+```
+npm install
+```
 
 ## Usage
 
-- Test
+After installing required packages, you are able to run:
 
-## Tests
+```
+npm start
+```
 
-To run a test use this command(s):
+The program will begin allowing you to answer each prompt accordingly.
 
-- Test
+![Questions Example](./Develop/img/example-screenshot1.png)
 
-## Contributing
+Some prompts will open a editor, allowing for more dynamic input:
 
-- Test
+![Questions Example2](./Develop/img/example-editor1.png)
+
+> **_NOTE:_**
+> If you are using windows. The default editor is Notepad. However you can change this if you wish. Be sure to save the temporary file before exiting the window to save your input.
+
+## Preview
+
+Click the image below to view a live demonstation.
+
+[![Video Demonstration Link](https://img.youtube.com/vi/2Emdx1P5SNc/0.jpg)](https://youtu.be/2Emdx1P5SNc)
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at test@gmail.com. You can find more of my work at [test](https://github.com/test/).
+If you have any questions about the repo, open an issue or contact me directly at berrylevente@hotmail.com.
+
+To view more of my work [click here](https://github.com/hokage-216/).
 
 ## License
-Copyright (c) 2024 LB
-Licensed under the GPL MIT license. To view the license terms click [here](https://opensource.org/licenses/MIT).
+
+Copyright (c) 2024 LeVente Berry Jr.
+Licensed under the MIT license. To view the license terms [click here](https://opensource.org/licenses/MIT).
