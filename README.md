@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Have a hard time thinking of how to setup your readme? Are you not familiar with the markdown syntax and wished there was a way to quickly generate a high quality README within minutes? Well look no further!!! README_Please is a node.js package that generates a high quality based on user input. No more wondering what 
+Have a hard time thinking of how to setup your readme? Are you not familiar with the markdown syntax and wished there was a way to quickly generate a high quality README within minutes? Well look no further!!! README_Please is a node.js package that generates a high quality based on user input. No more stressing about creating your README file. Just start this package and enjoy the template!
 
 ## Table of Contents
 - [Installation](#installation)
@@ -19,7 +19,7 @@ Have a hard time thinking of how to setup your readme? Are you not familiar with
 1. Open your terminal and clone the github repo:
 
 ```
-git clone https://github.com/hokage-216/readme-generator.git
+git clone https://github.com/hokage-216/readme-please.git
 ```
 
 2. 'cd' into the folder:
@@ -68,4 +68,5 @@ To view more of my work [click here](https://github.com/hokage-216/).
 ## License
 
 Copyright (c) 2024 LeVente Berry Jr.
+
 Licensed under the MIT license. To view the license terms [click here](https://opensource.org/licenses/MIT).

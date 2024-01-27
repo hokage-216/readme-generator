@@ -19,22 +19,27 @@ function renderLicenseSection(license, author, copy) {
     case  'MIT':
       return `## License
   Copyright (c) ${copy} ${author}
+
   Licensed under the MIT license. To view the license terms click [here](https://opensource.org/licenses/MIT).`;
     case 'ISC':
       return `## License
   Copyright (c) ${copy} ${author}
+
   Licensed under the ISC license. To view the license terms click [here](https://opensource.org/licenses/ISC).`;
     case 'GPL 2.0':
       return `## License
   Copyright (c) ${copy} ${author}
+
   Licensed under the GPL v2 license. To view the license terms click [here](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).`;
     case 'GPL 3.0':
       return `## License
   Copyright (c) ${copy} ${author}
+
   Licensed under the GPL v3 license. To view the license terms click [here](https://www.gnu.org/licenses/gpl-3.0).`;
     case 'Mozilla':
       return `## License
   Copyright (c) ${copy} ${author}
+  
   Licensed under the Mozilla Public License 2.0. To view the license terms click [here](https://opensource.org/licenses/MPL-2.0).`;
   }
 }
