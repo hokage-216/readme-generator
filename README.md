@@ -25,7 +25,7 @@ git clone https://github.com/hokage-216/readme-please.git
 2. 'cd' into the folder:
 
 ```
-cd readme-generator
+cd readme-please
 ```
 
 3. Then install the required packages:
